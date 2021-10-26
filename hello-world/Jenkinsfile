@@ -36,18 +36,7 @@ pipeline {
                 echo "Choice: ${params.CHOICE}"
             }
         }
-        stage('One') {
-            input {
-                message "Hii,should we continue?"
-                ok "Yes, we should."
-                submitter "sarah,furtado"
-                parameters {
-                    string(name: 'PERSON', defaultValue: 'Ms Sarah', description: 'How are you?')
-                }
-            }
-            steps {
-                echo "Hello, ${PERSON}, I'm fine ,nice to meet you."
-            }
+        
         stage('Publish Artifacts') {
             steps {
                 echo 'Save the assemblies generated from the compilation' 
