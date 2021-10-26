@@ -30,7 +30,7 @@ pipeline {
                 echo 'pipe4' 
             }
         }
-        stage('Example') {
+        stage('Six') {
             steps {
                 echo "Hello ${params.PERSON}"
                 echo "Choice: ${params.CHOICE}"
