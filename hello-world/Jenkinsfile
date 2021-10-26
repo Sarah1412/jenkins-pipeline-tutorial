@@ -3,27 +3,27 @@ pipeline {
     stages {
         stage('Static Analysis') {
             steps {
-                echo 'Hii Devops practical is on' 
+                echo 'Hii Devops practical is on 26th Oct' 
             }
         }
         stage('Compile') {
             steps {
-                echo 'hii Sarah' 
+                echo 'U are doing good' 
             }
         }
         stage('Security Check') {
             steps {
-                echo 'How are you' 
+                echo 'All the best' 
             }
         }
         stage('Run Unit Tests') {
             steps {
-                echo 'DevOps exp 5 is on ' 
+                echo 'DevOps practical exam is on ' 
             }
         }
         stage('Run Integration Tests') {
             steps {
-                echo 'pipe3' 
+                echo 'pipe4' 
             }
         }
         stage('Publish Artifacts') {
